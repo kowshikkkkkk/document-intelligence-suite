@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Dataset (too large for GitHub, and not ours to redistribute)
+data/raw/
+
+# Kaggle credentials (just in case, even though we used env vars)
+.kaggle-config/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+.vscode/
